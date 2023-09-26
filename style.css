@@ -348,9 +348,9 @@ form input, form textarea{
     }
     
     .about-col-1 img {
-        max-width: 150%;
-        max-height: 1500%;
- ]       width: auto;
+        max-width: 160%;
+        max-height: 160%;
+        width: auto;
         height: auto;
     }
      
