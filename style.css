@@ -343,22 +343,23 @@ form input, form textarea{
         align-items: center; /* To center the image vertically */
         height: 100%;
         flex-direction: column;
+        padding-left: 20px;
         padding-right: 20px;
-        align-items: flex-start;
+        align-items: center;
     }
     
     .about-col-1 img {
-        max-width: 160%;
-        max-height: 160%;
+        max-width: 165%;
+        max-height: 165%;
         width: auto;
         height: auto;
     }
      
      .about-col-2{
-        font-size: 13px;
+        font-size: 14px;
         flex-grow: 1;
         text-align: left right; /* Left-align text content */
-        padding: 8px;
+        padding-left: 0;
      }
      .tab-links{
         font-size: 16px;
