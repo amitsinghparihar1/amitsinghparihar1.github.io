@@ -292,20 +292,17 @@ form input, form textarea{
  }
  @media only screen and (max-width:600px){
     #header{
-        background-image: url("new.jpg");
+        background-image: url("new1.jpg");
     }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
     }
-    .profile-picture {
-        max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-        height: auto; /* Maintain the image's aspect ratio */
-    }
     
     .header-text h1{
         font-size: 30px;
     }
+    
     nav .fas{
         display: block;
         font-size: 25px;
@@ -321,9 +318,7 @@ form input, form textarea{
         z-index: 2;
         transition: right 0.5s ; /* Use 'transform' for the transition */
     }
-    .row {
-        flex-direction: column;
-    }
+    
      nav ul li{
         display:block ;
         margin: 25px;
@@ -340,11 +335,29 @@ form input, form textarea{
      .about-col-1, .about-col-2{
         flex-basis: 100%;
      }
-     .about-col-1{
-        margin-bottom: 30px;
-     }
+    
+    .about-col-1 {
+        display: flex;
+        justify-content: center; /* To center the image horizontally */
+        align-items: center; /* To center the image vertically */
+        height: 100%;
+        flex-direction: column;
+        padding-right: 20px;
+        align-items: flex-start;
+    }
+    
+    .about-col-1 img {
+        max-width: 150%;
+        max-height: 1500%;
+        width: auto;
+        height: auto;
+    }
+     
      .about-col-2{
-        font-size: 14px;
+        font-size: 13px;
+        flex-grow: 1;
+        text-align: left;
+        padding: 20px;
      }
      .tab-links{
         font-size: 16px;
